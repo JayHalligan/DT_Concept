@@ -10,7 +10,7 @@
         }
       ]
     },
-            "web/scss": {
+            "scss": {
                 "transformGroup": "tokens-scss",
                 "files": [
                     {
