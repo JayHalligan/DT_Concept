@@ -1719,7 +1719,7 @@
     "value": "1px",
     "type": "borderWidth"
   },
-  "large": {
+  "lg": {
     "value": "3px",
     "type": "borderWidth"
   },
