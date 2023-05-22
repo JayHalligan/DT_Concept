@@ -12,8 +12,6 @@
     },
             "web/scss": {
                 "transformGroup": "tokens-scss",
-                "buildPath": `dist/web/${brand}/`,
-                "prefix": "token",
                 "files": [
                     {
                         "destination": "tokens.scss",
