@@ -1,5 +1,7 @@
 name: CI
-on: [push]
+on: [push]:
+    paths:
+      - 'data/tokens.json'
 
 jobs:
   build:
