@@ -1,8 +1,7 @@
 
 // Do not edit directly
-// Generated on Mon, 22 May 2023 13:47:30 GMT
+// Generated on Thu, 25 May 2023 16:35:31 GMT
 
-$0: 0 px;
 $core-monochrome-20: #f4f8fc;
 $core-monochrome-25: #eaeef4;
 $core-monochrome-30: #c5ccd3;
@@ -69,6 +68,7 @@ $component-form-input-field-paragraph-content: [object Object];
 $component-form-input-field-input-text: [object Object];
 $component-form-input-field-top-label: [object Object];
 $component-form-input-field-character-count: [object Object];
+$component-form-boxes: 4px;
 $component-button-primary-bg-default: #151f27;
 $component-button-primary-bg-hover: #3f4d5a;
 $component-button-primary-bg-disabled: #c5ccd3;
@@ -89,6 +89,7 @@ $component-button-tertiary-fg-hover: #ffffff;
 $component-button-tertiary-fg-disabled: #ffffff;
 $component-button-link-button-fg: #151f27;
 $component-button-pill: 30px;
+$component-button-desktop-text: [object Object];
 $component-link-button-desktop-text: [object Object];
 $component-form-fields-input-fg-placeholder: #a9b3bc;
 $component-form-fields-input-fg-default: #151f27;
@@ -96,9 +97,15 @@ $component-form-fields-input-bg-default: #ffffff;
 $component-form-fields-checkbox-border: #a9b3bc;
 $component-checkbox-border-width: 1px;
 $component-banner-message-banner-backbox-bg: linear-gradient(180deg, #ff9a2e 0%, #ec00a4 100%);
+$component-banner-message-banner-backbox-corner-radius: 6px;
 $component-banner-message-container-footer-bg: #eaeef4;
 $component-banner-message-container-footer-fg: #151f27;
+$component-banner-message-container-fg: #151f27;
 $component-banner-message-container-bg: #f4f8fc;
+$component-banner-message-container-title: [object Object];
+$component-banner-message-container-paragraph: [object Object];
+$component-banner-message-container-footer-text: [object Object];
+$component-banner-message-container-corner-radius: 6px;
 $component-banner-headline-banner-bg: linear-gradient(137deg, #f00d6c 0%, #f89a23 100%);
 $component-banner-headline-banner-title-fg: #ffffff;
 $component-banner-headline-banner-paragraph: #151f27;
@@ -187,6 +194,7 @@ $label-xsmall: [object Object];
 $label-xsmall-uppercase: [object Object];
 $medium: [object Object];
 $large: [object Object];
+$square: 0;
 $default: 6px;
 $xs: 0.5px;
 $sm: 1px;
@@ -202,5 +210,7 @@ $system-warning-foreground: #C24700;
 $system-tertiary: #e50049;
 $system-text-primary: #151f27;
 $system-text-inverse: #ffffff;
+$small: 4px;
 $xxl: 20px;
+$test: #ffffff;
 $token-set-order-0: global;

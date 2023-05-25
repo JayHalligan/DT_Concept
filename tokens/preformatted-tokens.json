@@ -1,9 +1,4 @@
 {
-  "0": {
-    "value": "0 px",
-    "type": "borderRadius",
-    "description": "Square corners"
-  },
   "core": {
     "monochrome-20": {
       "value": "#f4f8fc",
@@ -322,7 +317,7 @@
           "value": {
             "fontFamily": "Alaska Beta",
             "fontWeight": "Light Contrast",
-            "lineHeight": 20,
+            "lineHeight": 24,
             "fontSize": 14,
             "letterSpacing": "0%",
             "paragraphSpacing": 0,
@@ -331,7 +326,7 @@
             "textDecoration": "none"
           },
           "type": "typography",
-          "description": "Font settings for input fields text"
+          "description": "Font settings for input fields label"
         },
         "character-count": {
           "value": {
@@ -345,8 +340,14 @@
             "textCase": "none",
             "textDecoration": "none"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "Font settings for Character counter below textarea input boxes"
         }
+      },
+      "boxes": {
+        "value": "4px",
+        "type": "borderRadius",
+        "description": "Corner radius for all form fields"
       }
     },
     "button": {
@@ -469,6 +470,23 @@
         "value": "30px",
         "type": "borderRadius",
         "description": "Border raius for pill buttons on all devices"
+      },
+      "desktop": {
+        "text": {
+          "value": {
+            "fontFamily": "Alaska Beta",
+            "fontWeight": "Expanded Medium",
+            "lineHeight": 20,
+            "fontSize": 14,
+            "letterSpacing": "0%",
+            "paragraphSpacing": 0,
+            "paragraphIndent": "0px",
+            "textCase": "none",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Font used for desktop button"
+        }
       }
     },
     "link-button": {
@@ -533,7 +551,12 @@
           "bg": {
             "value": "linear-gradient(180deg, #ff9a2e 0%, #ec00a4 100%)",
             "type": "color",
-            "description": "Box behind message component"
+            "description": "Box behind message container"
+          },
+          "corner-radius": {
+            "value": "6px",
+            "type": "borderRadius",
+            "description": "Border radius for the coloured box behind the message-container"
           }
         }
       },
@@ -546,12 +569,66 @@
         "footer-fg": {
           "value": "#151f27",
           "type": "color",
-          "description": "Text colour for the bottom message (footer) within message boxes. "
+          "description": "Text colour for the footer in message boxes. "
+        },
+        "fg": {
+          "value": "#151f27",
+          "type": "color",
+          "description": "Text colour for the message boxes. "
         },
         "bg": {
           "value": "#f4f8fc",
           "type": "color",
           "description": "Background colour for message boxes. \nThis token will be referenced by the accordion block and contact form backgrounds"
+        },
+        "title": {
+          "value": {
+            "fontFamily": "Alaska Beta",
+            "fontWeight": "Medium Contrast",
+            "lineHeight": 40,
+            "fontSize": 28,
+            "letterSpacing": "0%",
+            "paragraphSpacing": 0,
+            "paragraphIndent": "0px",
+            "textCase": "none",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Title font for the Message banners. Also used for  'banner-with-backbox'"
+        },
+        "paragraph": {
+          "value": {
+            "fontFamily": "Alaska Beta",
+            "fontWeight": "Light Contrast",
+            "lineHeight": 28,
+            "fontSize": 16,
+            "letterSpacing": "0%",
+            "paragraphSpacing": 0,
+            "paragraphIndent": "0px",
+            "textCase": "none",
+            "textDecoration": "none"
+          },
+          "type": "typography"
+        },
+        "footer-text": {
+          "value": {
+            "fontFamily": "Alaska Beta",
+            "fontWeight": "Medium Contrast",
+            "lineHeight": 28,
+            "fontSize": 18,
+            "letterSpacing": "0%",
+            "paragraphSpacing": 0,
+            "paragraphIndent": "0px",
+            "textCase": "none",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Font used on the banner message box text in the 'footer'"
+        },
+        "corner-radius": {
+          "value": "6px",
+          "type": "borderRadius",
+          "description": "Border radius for the message-container frame"
         }
       },
       "headline-banner": {
@@ -687,7 +764,7 @@
       "fg": {
         "value": "#151f27",
         "type": "color",
-        "description": "Foreground colour of the accordion block. This component references the message-container foreground to keep continuity between the elements"
+        "description": "Foreground colour of the accordion block. "
       }
     },
     "contact-form": {
@@ -759,7 +836,8 @@
     "accordion-item": {
       "bg": {
         "value": "#ffffff",
-        "type": "color"
+        "type": "color",
+        "description": "Background colour for accordion items"
       },
       "fg": {
         "value": "#151f27",
@@ -769,7 +847,7 @@
       "corner-radius": {
         "value": "4px",
         "type": "borderRadius",
-        "description": "Border radius for accordion items. Value is hard-coded as 4px isn't used anywhere else on the site"
+        "description": "Border radius for accordion items. "
       },
       "desktop": {
         "title": {
@@ -1706,6 +1784,10 @@
     },
     "type": "boxShadow"
   },
+  "square": {
+    "value": 0,
+    "type": "borderRadius"
+  },
   "default": {
     "value": "6px",
     "type": "borderRadius",
@@ -1779,9 +1861,17 @@
       }
     }
   },
+  "small": {
+    "value": "4px",
+    "type": "borderRadius"
+  },
   "xxl": {
     "value": "20px",
     "type": "borderRadius"
+  },
+  "test": {
+    "value": "#ffffff",
+    "type": "color"
   },
   "tokenSetOrder": {
     "0": {
