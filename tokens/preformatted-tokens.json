@@ -577,7 +577,7 @@
           "description": "Text colour for the message boxes. "
         },
         "bg": {
-          "value": "#f4f8fc",
+          "value": "#5ed18b",
           "type": "color",
           "description": "Background colour for message boxes. \nThis token will be referenced by the accordion block and contact form backgrounds"
         },
@@ -757,7 +757,7 @@
     },
     "accordion-block": {
       "bg": {
-        "value": "#f4f8fc",
+        "value": "#5ed18b",
         "type": "color",
         "description": "Background colour of the accordion block. This component references the message-container background to keep continuity between the elements"
       },
@@ -769,7 +769,7 @@
     },
     "contact-form": {
       "bg": {
-        "value": "#f4f8fc",
+        "value": "#5ed18b",
         "type": "color",
         "description": "This component references the message-container background to keep continuity between the elements"
       },
