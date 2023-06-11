@@ -1,10 +1,11 @@
 [
   {
     "id": "648757eda8279af1de8f84d6e8fe21dc47a95127",
-    "name": "test",
+    "name": "PLP",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "component": "enabled"
+      "component": "enabled",
+      "global": "source"
     }
   }
 ]

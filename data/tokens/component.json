@@ -1,1 +1,487 @@
-{}
+{
+  "component": {
+    "button": {
+      "primary": {
+        "bg": {
+          "active": {
+            "value": "{system.primary}",
+            "type": "color",
+            "description": "Primary button background colour"
+          },
+          "hover": {
+            "value": "{core.monochrome_80}",
+            "type": "color",
+            "description": "Primary button background colour"
+          },
+          "disabled": {
+            "value": "{core.monochrome_30}",
+            "type": "color",
+            "description": "Primary button: disabled background colour."
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Used for text on primary button"
+          },
+          "hover": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Used for text on primary button on_hover"
+          },
+          "disabled": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Text for disabled primary button "
+          }
+        }
+      },
+      "secondary": {
+        "bg": {
+          "active": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Secondary button: default background colour"
+          },
+          "hover": {
+            "value": "{core.monochrome_80}",
+            "type": "color",
+            "description": "Secondary button: hover background colour"
+          },
+          "disabled": {
+            "value": "{core.monochrome_30}",
+            "type": "color",
+            "description": "Secondary button: disabled background colour"
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{system.primary}",
+            "type": "color",
+            "description": "Secondary button: default text colour"
+          },
+          "hover": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Secondary button: hover text colour"
+          },
+          "disabled": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Secondary button: disabled text colour"
+          }
+        }
+      },
+      "tertiary": {
+        "bg": {
+          "active": {
+            "value": "{system.tertiary}",
+            "type": "color",
+            "description": "Tertiary button: default background colour"
+          },
+          "hover": {
+            "value": "{core.dark_rose_fuchsia}",
+            "type": "color",
+            "description": "Tertiary button: haver background colour"
+          },
+          "disabled": {
+            "value": "{core.monochrome_30}",
+            "type": "color",
+            "description": "Tertiary button: disabled background colour."
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Tertiary button: default foreground colour."
+          },
+          "hover": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Tertiary button: hover foreground colour."
+          },
+          "disabled": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Tertiary button: disabled foreground colour."
+          }
+        }
+      },
+      "link_button": {
+        "fg": {
+          "value": "{system.primary}",
+          "type": "color",
+          "description": "Default colour for link. "
+        }
+      },
+      "outline": {
+        "bg": {
+          "active": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Secondary button: default background colour"
+          },
+          "hover": {
+            "value": "{core.monochrome_80}",
+            "type": "color",
+            "description": "Secondary button: hover background colour"
+          },
+          "disabled": {
+            "value": "",
+            "type": "color",
+            "description": "Secondary button: disabled background colour"
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{system.primary}",
+            "type": "color",
+            "description": "Secondary button: default text colour"
+          },
+          "hover": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Secondary button: hover text colour"
+          },
+          "disabled": {
+            "value": "{core.monochrome_40}",
+            "type": "color",
+            "description": "Secondary button: disabled text colour"
+          }
+        }
+      },
+      "pill": {
+        "value": "30px",
+        "type": "borderRadius",
+        "description": "Border raius for pill buttons on all devices"
+      },
+      "desktop": {
+        "text": {
+          "value": "{core.label.medium}",
+          "type": "typography",
+          "description": "Font used for desktop button"
+        }
+      }
+    },
+    "form_fields": {
+      "input": {
+        "fg": {
+          "placeholder": {
+            "value": "{core.monochrome_40}",
+            "type": "color",
+            "description": "Placeholder text colour"
+          },
+          "default": {
+            "value": "{system.text.primary.on_light}",
+            "type": "color",
+            "description": "Populated text colour"
+          }
+        },
+        "bg": {
+          "active": {
+            "value": "{system.primary_inverse}",
+            "type": "color",
+            "description": "Background colour for default input fields"
+          }
+        }
+      },
+      "checkbox": {
+        "border": {
+          "value": "{core.monochrome_40}",
+          "type": "color",
+          "description": "Checkbox borders"
+        }
+      }
+    },
+    "banner": {
+      "message_banner": {
+        "backbox": {
+          "bg": {
+            "value": "{core.gradients.orange_fuchsia}",
+            "type": "color",
+            "description": "Box behind message container"
+          },
+          "corner_radius": {
+            "value": "{default}",
+            "type": "borderRadius",
+            "description": "Border radius for the coloured box behind the message_container"
+          }
+        }
+      },
+      "message_container": {
+        "footer_bg": {
+          "value": "{core.monochrome_25}",
+          "type": "color",
+          "description": "Background colour for the bottom message (footer) within message boxes. "
+        },
+        "footer_fg": {
+          "value": "{system.text.primary.on_light}",
+          "type": "color",
+          "description": "Text colour for the footer in message boxes. "
+        },
+        "fg": {
+          "value": "{system.text.primary.on_light}",
+          "type": "color",
+          "description": "Text colour for the message boxes. "
+        },
+        "bg": {
+          "value": "{core.monochrome_20}",
+          "type": "color",
+          "description": "Background colour for message boxes. \nThis token will be referenced by the accordion block and contact form backgrounds"
+        },
+        "corner_radius": {
+          "value": "{default}",
+          "type": "borderRadius",
+          "description": "Border radius for the message_container frame"
+        },
+        "title": {
+          "value": "{core.heading.04.desktop.medium}",
+          "type": "typography",
+          "description": "Title font for the Message banners. Also used for  'banner_with_backbox'"
+        },
+        "paragraph": {
+          "value": "{core.paragraph.medium.light}",
+          "type": "typography"
+        },
+        "footer_text": {
+          "value": "{core.heading.07.desktop.medium}",
+          "type": "typography",
+          "description": "Font used on the banner message box text in the 'footer'"
+        }
+      },
+      "headline_banner": {
+        "bg": {
+          "value": "{core.gradients.red_orange}",
+          "type": "color",
+          "description": "Used for the hero component at the top of the landing page"
+        },
+        "title_fg": {
+          "value": "{system.primary_inverse}",
+          "type": "color",
+          "description": "Colour for the title within the headline_banner"
+        },
+        "paragraph": {
+          "value": "{system.text.primary.on_light}",
+          "type": "color",
+          "description": "Text colour for the paragraph conent on the headline_banner"
+        },
+        "desktop": {
+          "title": {
+            "value": "{core.heading.01.desktop.medium}",
+            "type": "typography",
+            "description": "Used for the main title on the headline banner at the top of the landing page"
+          },
+          "sub_heading": {
+            "value": "{core.heading.06.desktop.light}",
+            "type": "typography",
+            "description": "Used for the main title on the headline banner at the top of the landing page"
+          },
+          "paragraph_content": {
+            "value": "{core.paragraph.medium.light}",
+            "type": "typography",
+            "description": "Used for the content paragraph on the banner on the top of the landing page"
+          }
+        }
+      },
+      "mixed_media": {
+        "fg": {
+          "value": "{system.text.primary.on_light}",
+          "type": "color",
+          "description": "Mixed media text colour. Used for headings and paragraphs"
+        },
+        "bg": {
+          "value": "{system.text.primary.on_dark}",
+          "type": "color",
+          "description": "Mixed media background colour. "
+        },
+        "desktop": {
+          "title": {
+            "value": "{core.heading.03.desktop.medium}",
+            "type": "typography",
+            "description": "Main title for the mixed_media banner"
+          },
+          "category": {
+            "value": "{core.label.xsmall_uppercase}",
+            "type": "typography",
+            "description": "Category text shown above main title for the mixed_media banner"
+          },
+          "paragraph": {
+            "value": "{core.paragraph.medium.light}",
+            "type": "typography",
+            "description": "Main content shown below the main title for the mixed_media banner"
+          }
+        }
+      }
+    },
+    "accordion_block": {
+      "bg": {
+        "value": "{component.banner.message_container.bg}",
+        "type": "color",
+        "description": "Background colour of the accordion block. This component references the message_container background to keep continuity between the elements"
+      },
+      "fg": {
+        "value": "{system.text.primary.on_light}",
+        "type": "color",
+        "description": "Foreground colour of the accordion block. "
+      }
+    },
+    "contact_form": {
+      "bg": {
+        "value": "{component.banner.message_container.bg}",
+        "type": "color",
+        "description": "This component references the message_container background to keep continuity between the elements"
+      },
+      "fg": {
+        "value": "{system.text.primary.on_light}",
+        "type": "color",
+        "description": "Text colour for any text on the Contact us form. NOTE: this does not include the text linked to the input fields"
+      },
+      "desktop": {
+        "corner_radius": {
+          "value": "{xxl}",
+          "type": "borderRadius",
+          "description": "Corner radius for the Contact Us form container"
+        },
+        "title": {
+          "value": "{component.accordion_item.desktop.title}",
+          "type": "typography",
+          "description": "Contact Us form main title on the landing page"
+        },
+        "paragraph": {
+          "value": "{core.paragraph.small.light}",
+          "type": "typography",
+          "description": "Contact Us form top paragraph on the landing page"
+        }
+      },
+      "checkbox": {
+        "label": {
+          "value": "{core.paragraph.xs.light}",
+          "type": "typography",
+          "description": "Used for the terms and conditions text besides the checkbox"
+        }
+      }
+    },
+    "accordion_item": {
+      "bg": {
+        "value": "{system.primary_inverse}",
+        "type": "color",
+        "description": "Background colour for accordion items"
+      },
+      "fg": {
+        "value": "{system.text.primary.on_light}",
+        "type": "color",
+        "description": "Text colour "
+      },
+      "corner_radius": {
+        "value": "{small}",
+        "type": "borderRadius",
+        "description": "Border radius for accordion items. "
+      },
+      "desktop": {
+        "title": {
+          "value": "{core.heading.07.desktop.medium}",
+          "type": "typography",
+          "description": "Used for the title on each accordion item. For both open and closed"
+        },
+        "paragraph": {
+          "value": "{core.paragraph.small.light}",
+          "type": "typography",
+          "description": "Used for the main content; shown when the accordion item is open"
+        }
+      }
+    },
+    "footer": {
+      "desktop": {
+        "small_text": {
+          "value": "{system.text.primary.on_dark}",
+          "type": "color",
+          "description": "Used for small links and notes on the footer"
+        },
+        "links": {
+          "value": "{system.text.primary.on_dark}",
+          "type": "color"
+        }
+      }
+    },
+    "form": {
+      "boxes": {
+        "value": "{small}",
+        "type": "borderRadius",
+        "description": "Corner radius for all form fields"
+      },
+      "input_field": {
+        "message_text": {
+          "value": "{core.paragraph.xs.light}",
+          "type": "typography",
+          "description": "Text below input fields"
+        },
+        "paragraph_content": {
+          "value": "{core.paragraph.xs.light}",
+          "type": "typography",
+          "description": "Text below input fields"
+        },
+        "input_text": {
+          "value": "{core.paragraph.small.light}",
+          "type": "typography",
+          "description": "Font settings for input fields text"
+        },
+        "top_label": {
+          "value": "{core.paragraph.small.light}",
+          "type": "typography",
+          "description": "Font settings for input fields label"
+        },
+        "character_count": {
+          "value": "{core.paragraph.xs.light}",
+          "type": "typography",
+          "description": "Font settings for Character counter below textarea input boxes"
+        }
+      }
+    },
+    "link_button": {
+      "desktop": {
+        "text": {
+          "value": "{core.label.large}",
+          "type": "typography",
+          "description": "Link button: default font for desktop"
+        }
+      }
+    },
+    "card": {
+      "video": {
+        "desktop": {
+          "heading": {
+            "left": {
+              "value": "{core.label.medium_uppercase}",
+              "type": "typography",
+              "description": "Used in the 'Ask the Expert' and 'Video library' cards. This style is for the text on the left of the card heading"
+            },
+            "right": {
+              "value": "{core.paragraph.medium.light_condensed}",
+              "type": "typography",
+              "description": "Used in the 'Ask the Expert' and 'Video library' cards. This style is for the text on the left of the card heading"
+            }
+          },
+          "bottom": {
+            "paragraph": {
+              "value": "{core.paragraph.xl.medium}",
+              "type": "typography"
+            },
+            "credit_text": {
+              "value": "{core.paragraph.medium.medium}",
+              "type": "typography"
+            }
+          }
+        }
+      }
+    },
+    "checkbox": {
+      "border_width": {
+        "value": "{sm}",
+        "type": "borderWidth",
+        "description": "Border size for checkboxes"
+      }
+    }
+  }
+}
